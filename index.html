@@ -286,8 +286,12 @@
                         <!--<a href="#" class="main-btn">Know More</a>-->
                     </div>
                 </div>
-                <div class="col-lg-5 col-lg-6 col-md-2 order-1 order-md-2">
-                    <iframe title="Video Player" width="640" height="360" frameborder="0" src="https://www.youtube.com/embed/9tMIK7nmtQk?autoplay=0&mute=0" allowfullscreen controls></iframe>
+                <!--<div class="col-lg-5 col-lg-6 col-md-2 order-1 order-md-2">
+                <iframe title="Video Player" width="640" height="360" frameborder="0" src="https://www.youtube.com/embed/9tMIK7nmtQk?autoplay=0&mute=0" allowfullscreen controls></iframe>-->
+                <!--<iframe class="responsive-iframe" frameborder="0" src="https://www.youtube.com/embed/9tMIK7nmtQk?autoplay=0&mute=0" allowfullscreen controls></iframe>-->
+                <!--</div>-->
+                <div class="col-lg-5 col-lg-6 col-md-2 order-1 order-md-2 embed-responsive embed-responsive-21by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/9tMIK7nmtQk?autoplay=0&mute=0" controls></iframe>
                     <!--<iframe class="responsive-iframe" frameborder="0" src="https://www.youtube.com/embed/9tMIK7nmtQk?autoplay=0&mute=0" allowfullscreen controls></iframe>-->
                 </div>
             </div>
@@ -750,10 +754,10 @@
                 alert("Please Enter Your Mail Address!");
             } else {
                 Email.send({
-                    //SecureToken: '6c155a40-8359-4759-a0f4-7258ad1b3696',
-                    Host: "smtp.africasoftwarearchitects.com",
-                    Username: "asa@africasoftwarearchitects.com",
-                    Password: "A5a2018$100pc",
+                    SecureToken: 'e09e5ad2-5ae4-48b3-ab2c-f53a985e7fd9',
+                    //Host: "smtp.africasoftwarearchitects.com",
+                    //Username: "asa@africasoftwarearchitects.com",
+                    //Password: "A5a2018$100pc",
                     To: 'asa@africasoftwarearchitects.com',
                     From: email, 
                     Subject: "client - " + email,
