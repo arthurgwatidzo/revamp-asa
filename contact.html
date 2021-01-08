@@ -1,0 +1,281 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--====== Required meta tags ======-->
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="description" content="Software Development, Board Management Software, ERP, AWS Cloud, Oracle, Software Architecture, DevOps, Web App Development, Mobile App Development, Procurement Software, Learner Management System, DHIS2, Liferay, Veeam Backup Replicaion, Solarwinds, Document Management System" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!--====== Title ======-->
+    <title> ASA - Africa Software Architects </title>
+    <!--====== Favicon Icon ======-->
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="img/png" />
+    <!--====== Animate Css ======-->
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <!--====== Bootstrap css ======-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!--====== Fontawesome css ======-->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+    <!--====== Flaticon css ======-->
+    <link rel="stylesheet" href="assets/css/flaticon.css" />
+    <!--====== Magnific Popup css ======-->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+    <!--====== Slick  css ======-->
+    <link rel="stylesheet" href="assets/css/slick.css" />
+    <!--====== Jquery ui ======-->
+    <link rel="stylesheet" href="assets/css/jquery-ui.min.css" />
+    <!--====== Style css ======-->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script type=”text/javascript” src=”//cdn.jsdelivr.net/afterglow/latest/afterglow.min.js”></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</head>
+
+<body>
+    <!--[if lte IE 9]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+    <![endif]-->
+    <!--====== Header part start ======-->
+    <header class="sticky-header">
+        <!-- Header Menu  -->
+        <div class="header-nav">
+            <div class="container-fluid container-1600">
+                <div class="nav-container">
+                    <!-- Site Logo -->
+                    <div class="site-logo">
+                        <a href="index.html"><img src="assets/img/ASA_LogoFinal-01.png" alt="Logo"></a>
+                    </div>
+
+                    <!-- Main Menu -->
+                    <div class="nav-menu d-lg-flex align-items-center">
+
+                        <!-- Navbar Close Icon -->
+                        <div class="navbar-close">
+                            <div class="cross-wrap"><span></span><span></span></div>
+                        </div>
+
+                        <!-- Mneu Items -->
+                        <div class="menu-items">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="whoweare.html">Who We Are</a></li>
+                                <li><a href="solutions.html">Solutions</a></li>
+
+                                <li><a href="services.html">Services</a></li>
+
+                                <li><a href="partners.html">Business Partners</a></li>
+
+                                <li><a href="founder.html">Founder & MD</a></li>
+
+                                <li><a href="contact.html">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <!-- Pushed Item -->
+                        <div class="nav-pushed-item"></div>
+                    </div>
+
+                    <!-- Navbar Extra  -->
+                    <div class="navbar-extra d-lg-block d-flex align-items-center">
+                        <!-- Navbtn -->
+                        <div class="navbar-btn nav-push-item">
+                            <a class="main-btn main-btn-3" href="contact.html">Consulting Now</a>
+                        </div>
+                        <!-- Navbar Toggler -->
+                        <div class="navbar-toggler">
+                            <span></span><span></span><span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--====== Header part end ======-->
+    <!--====== Testimonials part start ======-->
+    <section class="testimonial-section grey-bg">
+        <div class="container">
+            <div class="section-title left-border">
+                <h2 class="title">Contact Us </h2><br />
+            </div>
+            <div class="col-md-12 mb-5">
+                <form action="#" class="p-5 bg-white" id="form1">
+                    <div class="row form-group">
+                        <div class="col-md-12">
+                            <label class="text-black" for="name">Full Name</label>
+                            <input type="text" id="name" class="form-control">
+                        </div>
+                    </div>
+                    <div class="row form-group">
+                        <div class="col-md-12">
+                            <label class="text-black" for="company">Company Name</label>
+                            <input type="text" id="company" class="form-control">
+                        </div>
+                    </div>
+                    <div class="row form-group">
+                        <div class="col-md-12">
+                            <label class="text-black" for="email">Your Email</label>
+                            <input type="email" id="email" class="form-control">
+                        </div>
+                    </div>
+                    <div class="row form-group">
+                        <div class="col-md-12">
+                            <label class="text-black" for="subject">Subject</label>
+                            <input type="text" id="subject" class="form-control">
+                        </div>
+                    </div>
+                    <div class="row form-group">
+                        <div class="col-md-12">
+                            <label class="text-black" for="message">Message</label>
+                            <textarea name="message" id="message" cols="30" rows="7" class="form-control" placeholder="Write your notes or questions here..."></textarea>
+                        </div>
+                    </div>
+                    <div class="row form-group">
+                        <div class="col-md-6">
+                            <input type="button" value="Reset Details" class="btn btn-danger btn-md text-black" onclick="resetDetails()">
+                        </div>
+                        <div class="col-md-6">
+                            <input type="button" value="Send Now" class="btn btn-primary btn-md text-white" onclick="sendEmail()">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <div class="section-title left-border">
+            <h2 class="title">Contact Us </h2><br />
+        </div>
+        <!--Google map-->
+        <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px;margin-top: 30px;">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d896.263905052324!2d28.0644869!3d-26.0317361!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e95722e11192ffb%3A0xc220d75a596d026c!2sAfrica%20Software%20Architects%20(Pty)%20Ltd!5e0!3m2!1sen!2sin!4v1609690880417!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+        <!--Google Maps-->
+    </div>
+    <!--====== Testimonials part end ======-->
+    <!--====== Footer Part Start ======-->
+    <footer>
+        <div class="container">
+            <div class="footer-widget">
+                <div class="row">
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="widget contact-widget">
+                            <h4 class="widget-title">Quick Links</h4>
+                            <ul class="contact-infos">
+                                <li><a href="#"><i class="fa fa-home"></i>Home</a></li>
+                                <li><a href="#"><i class="fa fa-check"></i>Jobs</a></li>
+                                <li><a href="#"><i class="fa fa-bars"></i>Information</a></li>
+                                <li><a href="#"><i class="fa fa-user-plus"></i>Partnership</a></li>
+                                <li><a href="#"><i class="fa fa-file"></i>Press Info</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="widget contact-widget">
+                            <h4 class="widget-title">Contact Us</h4>
+                            <p>Merafe House, Suite S2, 11 Naivasha Road, Sunninghill, Sandton, Gauteng, South Africa</p>
+                            <ul class="contact-infos">
+                                <li>
+                                    <a href="tel:+0123456789">
+                                        <i class="far fa-phone"></i>
+                                        +27(11)202-5135
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="mailto:info@africasoftwarearchitects.com">
+                                        <i class="far fa-envelope-open"></i>
+                                        info@africasoftwarearchitects.com
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="widget contact-widget">
+                            <h4 class="widget-title">Follow Us</h4>
+                            <ul class="contact-infos">
+                                <li><a href="https://www.facebook.com/africasoftwarearchitects" target="_blank"><i class="fab fa-facebook-f"></i>africasoftwarearchitects</a></li>
+                                <!--<li><a href="#"><i class="fab fa-twitter"></i>africasoftwarearchitects</a></li>-->
+                                <li><a href="https://www.instagram.com/africasoftwarearchitects" target="_blank"><i class="fab fa-instagram"></i>africasoftwarearchitects</a></li>
+                                <li><a href="https://www.linkedin.com/company/africa-software-architects" target="_blank"><i class="fab fa-linkedin"></i>africasoftwarearchitects</a></li>
+                                <li><a href="https://youtube.com/channel/UC_mIzRNA5i5DQNFTczxbQsA" target="_blank"><i class="fab fa-youtube"></i>africasoftwarearchitects</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <p class="copyright-text">
+                    <span>Copyright@ <a href="#">Africa Software Architects </a> All Rights Reserved 2018</span>
+                    <span>Powerded By Dicol</span>
+                </p>
+                <a href="#" class="back-to-top"><i class="far fa-angle-up"></i></a>
+            </div>
+        </div>
+        <!-- Lines -->
+        <img src="assets/img/lines/01.png" alt="line-shape" class="line-one">
+        <img src="assets/img/lines/02.png" alt="line-shape" class="line-two">
+    </footer>
+    <!--====== Footer Part end ======-->
+    <!--====== jquery js ======-->
+    <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
+    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <!--====== Bootstrap js ======-->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <!--====== Slick js ======-->
+    <script src="assets/js/slick.min.js"></script>
+    <!--====== Isotope js ======-->
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <!--====== Magnific Popup js ======-->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!--====== inview js ======-->
+    <script src="assets/js/jquery.inview.min.js"></script>
+    <!--====== counterup js ======-->
+    <script src="assets/js/jquery.countTo.js"></script>
+    <!--====== easy PieChart js ======-->
+    <script src="assets/js/jquery.easypiechart.min.js"></script>
+    <!--====== Jquery Ui ======-->
+    <script src="assets/js/jquery-ui.min.js"></script>
+    <!--====== Wow JS ======-->
+    <script src="assets/js/wow.min.js"></script>
+    <!--====== Main js ======-->
+    <script src="assets/js/main.js"></script>
+    <script type="text/javascript">
+        function sendEmail() {
+            var company = document.getElementById('company').value;
+            var name = document.getElementById('name').value;
+            var message = document.getElementById('message').value;
+            var email = document.getElementById("email").value;
+            var subject = document.getElementById("subject").value;
+            if (email === null || email === undefined || email === "" || (!email.includes('@') || !email.includes('.com'))) {
+                alert("Please Enter Your Mail Address!");
+            } else {
+                Email.send({
+                    //SecureToken: '6c155a40-8359-4759-a0f4-7258ad1b3696',
+                    Host: "smtp.africasoftwarearchitects.com",
+                    Username: "asa@africasoftwarearchitects.com",
+                    Password: "A5a2018$100pc",
+                    To: 'dicolteja@gmail.com',//'asa@africasoftwarearchitects.com',
+                    From: email,
+                    Subject: "client - " + subject,
+                    Body: "<html><h2>" + company + "</h2><strong>" + name + "</strong><br></br></br><em>" + message + "</em></html>",
+                })
+                    .then(function (message) {
+                        if (message === "OK") {
+                            alert("Mail Sent Successfully");
+                        }
+                    });
+            }
+
+        }
+    </script>
+    <script type="text/javascript">
+        function resetDetails() {
+            document.getElementById("form1").reset();
+        }
+    </script>
+
+</body>
+
+</html>
