@@ -68,21 +68,21 @@
                             <ul>
                                 <li><a href="index.html">Home</a></li>
                                 <li><a href="whoweare.html">Who We Are</a></li>
-                                <!--<li class="has-submemu">
-                                    <a href="index.html">Who We Are</a>
-                                    <ul class="submenu">
-                                        <li><a href="whoweare.html">Corporate Vision</a></li>
-                                        <li><a href="whoweare.html">Corporate Mission</a> </li>
-                                        <li><a href="whoweare.html">Corporate Values</a></li>
-                                    </ul>
-                                </li>-->
+
                                 <li><a href="solutions.html">Solutions</a></li>
 
                                 <li><a href="services.html">Services</a></li>
 
                                 <li><a href="partners.html">Business Partners</a></li>
 
-                                <li><a href="founder.html">Founder & MD</a></li>
+                                <!--<li><a href="founder.html">Founder & MD</a></li>-->
+                                <li class="has-submemu">
+                                    <a href="#">Founder & MD</a>
+                                    <ul class="submenu">
+                                        <li><a href="founder.html#founder">Founder & MD</a></li>
+                                        <li><a href="founder.html#jobs">Vacancies</a> </li>
+                                    </ul>
+                                </li>
 
                                 <li><a href="contact.html">Contact Us</a></li>
                             </ul>
@@ -561,12 +561,12 @@
                             <span class="post-date"><i class="far fa-calendar-alt"></i>25 Feb 2019</span>
                             <h3 class="title">
                                 <a href="#">
-                                     Managing Director's Message
+                                    Managing Director's Message
                                 </a>
                             </h3>
                             <p>
                                 Companies are fast seizing on Cloud computing as the key enabler to complete their digital transformation, and the COVID pandemic has further accelerated endorsement by most  top C-Suite personnel in MANCO & EXCO board meetings.
-At ASA, we assist our clients to think strategically about desired business outcomes, investment priorities, deployment models, service providers, talent sourcing and cloud policies. At Africa Software Architects we believe that when companies adopt cloud strategies as part of  their digital transformation journey, these companies will significantly reduce IT infrastructure costs, increase time-to-market for their products and services to the international market. ASA is a AWS digital consulting partner and an Oracle Partner Network member and these business synergies will help us to quickly extend dependable & efficient Cloud solutions and Services to all our clients.
+                                At ASA, we assist our clients to think strategically about desired business outcomes, investment priorities, deployment models, service providers, talent sourcing and cloud policies. At Africa Software Architects we believe that when companies adopt cloud strategies as part of  their digital transformation journey, these companies will significantly reduce IT infrastructure costs, increase time-to-market for their products and services to the international market. ASA is a AWS digital consulting partner and an Oracle Partner Network member and these business synergies will help us to quickly extend dependable & efficient Cloud solutions and Services to all our clients.
                             </p>
                             <a href="#" class="post-link">
                                 Learn More <i class="far fa-long-arrow-right"></i>
@@ -665,7 +665,7 @@ At ASA, we assist our clients to think strategically about desired business outc
                             <h4 class="widget-title">Quick Links</h4>
                             <ul class="contact-infos">
                                 <li><a href="index.html"><i class="fa fa-home"></i>Home</a></li>
-                                <li><a href="founder.html"><i class="fa fa-check"></i>Jobs</a></li>
+                                <li><a href="founder.html#jobs"><i class="fa fa-check"></i>Jobs</a></li>
                                 <li><a href="whoweare.html"><i class="fa fa-bars"></i>Information</a></li>
                                 <li><a href="partners.html"><i class="fa fa-user-plus"></i>Partnership</a></li>
                                 <li><a href="#"><i class="fa fa-file"></i>Press Info</a></li>
@@ -766,7 +766,7 @@ At ASA, we assist our clients to think strategically about desired business outc
                     //Username: "asa@africasoftwarearchitects.com",
                     //Password: "A5a2018$100pc",
                     To: 'asa@africasoftwarearchitects.com',
-                    From: email, 
+                    From: email,
                     Subject: "client - " + email,
                     Body: "<html><h2>" + company + "</h2><strong>" + name + "</strong><br></br></br><em>" + message + "</em></html>",
                 })
